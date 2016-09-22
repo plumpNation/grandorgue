@@ -5,7 +5,7 @@ osx_image: xcode7.3
 
 before_install:
   - brew update
-  - brew install gettext jack docbook-xsl wxmac cmake pkg-config fftw wavpack
+  - brew install gettext jack docbook-xsl wxmac cmake pkg-config fftw wavpack e9925248/debian/po4a
   - brew link gettext --force
 
 script:
